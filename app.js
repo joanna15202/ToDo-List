@@ -37,15 +37,15 @@ const Item = mongoose.model('Item', itemsSchema); // item here needs to be a sin
 const List = mongoose.model('List', listSchema);
 
 const item1 = new Item({
-  name: "Buy food."
+  name: "Welcome to your todolist!"
 });
 
 const item2 = new Item({
-  name: "Workout."
+  name: "<-- Hit the box to delete an item."
 });
 
 const item3 = new Item({
-  name: "Coffee."
+  name: "Head over to /<list name> to add a new list."
 });
 
 // **************************
